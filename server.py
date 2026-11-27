@@ -9,6 +9,8 @@ class SimpleHandler(BaseHTTPRequestHandler):
     # Маппинг маршрутов к файлам
     ROUTES = {
         '/': 'templates/index.html',
+        '/about': 'templates/about.html',
+        '/services': 'templates/services.html',
         '/contacts': 'templates/contacts.html',
     }
 
